@@ -9,5 +9,13 @@ The Image processing in this lab involves demosaicing the bayer filter integrate
 ## Folder Descriptions
 
 ```Vivado/``` - contains the full Vivado project archive of the RTL image processing pipeline
+
 ```Vitis_HW_pipeline``` - source code for firmware used to control the FMC IMAGEON. The firmware is directly integrated with the RTL pipeline implemented on the Zedboard.
+
 ```Vitis_SW_pipeline``` - source code for firmware implementation of image processing pipeline
+
+```ip_repo_hw``` - related IPs used to integrate FMC IMAGEON with the RTL pipeline
+
+```ip_repo_sw``` - related IPs used to integrate FMC IMAGEON with the firmware pipeline
+
+```docs``` - Relevant documentation for hardware and IPs used in the project
